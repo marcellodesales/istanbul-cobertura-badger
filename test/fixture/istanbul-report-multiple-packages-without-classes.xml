@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="328"  lines-covered="255"  line-rate="0.7774"  branches-valid="58"  branches-covered="30"  branch-rate="0.5172"  timestamp="1444266082605" complexity="0" version="0.1">
+<sources>
+	<source>/home/mdesales/dev/github-intuit/servicesplatform-nodejs/sp-quality</source>
+</sources>
+<packages>
+  <class name="lint.js"  filename="lint.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+			<line number="5"  hits="1"  branch="false" />
+			<line number="10"  hits="1"  branch="false" />
+		</lines>
+  </class>
+  <class name="test.js"  filename="test.js"  line-rate="0.6"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="0"  signature="()V" >
+				<lines><line number="8"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="8"  signature="()V" >
+				<lines><line number="15"  hits="8" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="0"  signature="()V" >
+				<lines><line number="22"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_4)"  hits="0"  signature="()V" >
+				<lines><line number="29"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_5)"  hits="0"  signature="()V" >
+				<lines><line number="37"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="8"  hits="1"  branch="false" />
+			<line number="9"  hits="0"  branch="false" />
+			<line number="15"  hits="1"  branch="false" />
+			<line number="16"  hits="8"  branch="false" />
+			<line number="22"  hits="1"  branch="false" />
+			<line number="23"  hits="0"  branch="false" />
+			<line number="29"  hits="1"  branch="false" />
+			<line number="30"  hits="0"  branch="false" />
+			<line number="37"  hits="1"  branch="false" />
+			<line number="38"  hits="0"  branch="false" />
+		</lines>
+  </class>
+</packages>
+</coverage>
