@@ -95,6 +95,7 @@ Examples
 
 ```js
 var coberturaBadger = require('istanbul-cobertura-badger');
+var path = require('path');
 
 // Use the fixture that's without problems
 var opts = {
@@ -111,9 +112,10 @@ var opts = {
 };
 
 // Load the badge for the report$
-badger(opts, function parsingResults(err, badgeStatus) {
+coberturaBadger(opts, function parsingResults(err, badgeStatus) {
   if (err) {
-    console.log("An error occurred: " + err.message);
+    console.error("An error occurred:", err.message);
+    return;
   }
   console.log("Badge successfully generated at " + badgeStatus.badgeFile.file);
   console.log(badgeStatus);
